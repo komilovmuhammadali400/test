@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #000;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  list-style: none;
+}
+body .container {
+  width: 1280px;
+}
+body #begin {
+  width: 1440px;
+  min-height: 100vh;
+  background: #303030;
+  overflow: hidden;
+}
+body #begin #home {
+  position: relative;
+}
+body #begin #home .back {
+  position: absolute;
+  top: -340px;
+  width: 1506px;
+  height: 1020px;
+  background: #23464A;
+  mix-blend-mode: normal;
+  border-radius: 80px;
+  transform: rotate(-10deg);
+}
+body #begin #home .back1 {
+  position: absolute;
+  width: 475px;
+  height: 297.71px;
+  right: 15px;
+  top: -200px;
+  background: #00838F;
+  border-radius: 40px;
+  transform: rotate(-11deg);
+}
+body #begin #home .content {
+  position: absolute;
+  width: 100%;
+}
+body #begin #home .content .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+body #begin #home .content .menu .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body #begin #home .content .menu .container .txt {
+  display: flex;
+  align-items: center;
+}
+body #begin #home .content .menu .container .txt a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #B2EBF2;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin: 0 25px;
+}
+body #begin #home .content .menu .container .btn {
+  display: flex;
+  align-items: center;
+}
+body #begin #home .content .menu .container .btn a:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body #begin #home .content .menu .container .btn a:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 40px;
+  border-radius: 10px;
+  background: #FFA000;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  margin: 0 30px;
+}
+body #begin #home .content .menu .container .btn a i {
+  color: rgba(255, 255, 255, 0.54);
+  font-size: 29px;
+}
+body #begin #home .content .menu .container .btn .line {
+  width: 2px;
+  height: 25px;
+  background: #979797;
+  margin-right: 30px;
+}
+body #begin #home .content .d-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+body #begin #home .content .d-f .txt h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+body #begin #home .content .d-f .txt h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+  color: #FFFFFF;
+  margin: 24px 0;
+}
+body #begin #home .content .d-f .txt .d-f {
+  justify-content: start;
+  padding: 0;
+}
+body #begin #home .content .d-f .txt .d-f a:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #B2EBF2;
+}
+body #begin #home .content .d-f .txt .d-f a:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 48px;
+  background: #00BCD4;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  margin-left: 38px;
+}
+body #begin #home .content .d-f1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #begin #home .content .d-f1 .container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #begin #home .content .d-f1 .container .card h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  /* or 150% */
+  color: #B2EBF2;
+}
+body #begin #home .content .d-f1 .container .card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  color: #FFFFFF;
+}
+body #begin #home .content .d-f1 .container .line {
+  width: 2px;
+  height: 63px;
+  background: rgba(255, 255, 255, 0.12);
+  margin-left: 61px;
+  margin-right: 30px;
+}
+body #begin #feature {
+  margin-top: 740px;
+  display: flex;
+  justify-content: center;
+}
+body #begin #feature h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+body #begin #feature p {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body #begin #feature .cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 40px;
+}
+body #begin #feature .cards .card {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+body #begin #feature .cards .card .back {
+  width: 118px;
+  height: 118px;
+  border-radius: 20px;
+  border: 1px solid #00BCD4;
+  border-radius: 20px;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #begin #feature .cards .card .back img {
+  transform: rotate(-45deg);
+}
+body #begin #feature .cards .card .txt {
+  margin-left: 25px;
+}
+body #begin #feature .cards .card .txt h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+body #begin #feature .cards .card .txt h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.54);
+}/*# sourceMappingURL=style.css.map */
